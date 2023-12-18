@@ -22,7 +22,7 @@ if ($conexion->connect_error) {
 $correo = $_POST["correo"];
 $contrasena = $_POST["contrasena"];
 
-// Consulta para validar si el usuario es un administrador
+// Consulta para validar si el usuario existe
 $query = "SELECT * FROM usuarios WHERE correo = '$correo' AND contrasena = '$contrasena' AND rol = 'usuario'";
 $resultado = $conexion->query($query);
 
@@ -32,8 +32,8 @@ if ($resultado->num_rows == 1) {
   $_SESSION["contrasena"] = $contrasena;
   header("Location: inicio-user.php"); // Redirigir
 } else {
-  // El usuario no es un administrador, mostrar mensaje de error
-  echo "Correo electrónico o contraseña incorrectos para un administrador.";
+  // El usuario no existe
+  echo "Correo electrónico o contraseña incorrectos.";
 }
 
 // Cerrar la conexión a la base de datos
