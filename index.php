@@ -14,7 +14,7 @@
 
     header {
       text-align: center;
-      background-color: #003366; /* Color de la aerolínea TECHNOKEY */
+      background-color: #003366; 
       color: #fff;
       padding: 1em;
     }
@@ -40,7 +40,7 @@
       display: block;
       padding: 20px;
       color: #fff;
-      background-color: #004080; /* Color secundario de la aerolínea TECHNOKEY */
+      background-color: #004080; 
       border-radius: 10px;
       transition: background-color 0.3s ease;
       font-size: 20px;
@@ -49,7 +49,7 @@
 
     nav ul li a:hover,
     nav ul li a:focus {
-      background-color: #0066cc; /* Color de resalte de la aerolínea TECHNOKEY */
+      background-color: #0066cc; 
       cursor: pointer;
       transform: translateY(-5px);
     }
@@ -67,7 +67,7 @@
       background-color: #fff;
       padding: 2em;
       border-radius: 1em;
-      box-shadow: 0 0 10px rgba(0, 51, 102, 0.5); /* Sombra con el color de la aerolínea TECHNOKEY */
+      box-shadow: 0 0 10px rgba(0, 51, 102, 0.5);
     }
 
     h1,
@@ -88,7 +88,7 @@
     }
 
     form input[type="submit"] {
-      background-color: #003366; /* Color de botón de la aerolínea TECHNOKEY */
+      background-color: #003366; 
       color: #fff;
       padding: 0.5em 1em;
       border: none;
@@ -98,12 +98,12 @@
     }
 
     form input[type="submit"]:hover {
-      background-color: #004080; /* Color de resalte de botón de la aerolínea TECHNOKEY */
+      background-color: #004080; 
       color: #fff;
     }
 
     footer {
-      background-color: #003366; /* Color de pie de página de la aerolínea TECHNOKEY */
+      background-color: #003366; 
       color: #fff;
       text-align: center;
       padding: 10px;
