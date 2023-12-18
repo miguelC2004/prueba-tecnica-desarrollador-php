@@ -18,7 +18,7 @@ Este proyecto implementa un sistema simple para la gestión de vuelos y reservas
 ## Configuración de la Base de Datos
 
 1) importar en xampp o pgAdmin 4 la base de datos (technokey_airlines.sql)
-2) configurar el 
+2) configurar el script para que se conecte a la base de datos
 
 ## Uso
 
