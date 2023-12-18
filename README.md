@@ -24,3 +24,7 @@ Este proyecto implementa un sistema simple para la gestión de vuelos y reservas
 
 1) Completa el formulario de registro para crear una cuenta.
 2) Inicia sesión como administrador en `admin.php` para acceder a funciones administrativas (simulación) o a User.php para iniciar sesión como usuario y agendar un vuelo.
+
+## ACLARACIÓN
+Durante la realización de la prueba, utilicé herramientas de apoyo como StackOverflow, ChatGPT 3.5 y GitHub Copilot. Aunque estas herramientas sirvieron como fuentes de apoyo y consulta, quiero destacar que el desarrollo de la prueba no dependió al 100% de ellas, y he seguido los principios y prácticas de codificación estándar.
+
